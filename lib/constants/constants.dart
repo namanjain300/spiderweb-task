@@ -1,0 +1,95 @@
+import 'package:spiderweb_task/constants/values.dart';
+import 'package:spiderweb_task/models/report_model.dart';
+
+class Constants {
+  static List<ReportModel> reportModels = [
+    ReportModel(
+      customerGroupName: 'Telestra Corporation Ltd.',
+      customerGroupId: '459',
+      isFavorite: false,
+      rainmakerName: 'Suhel Goel',
+      rainmakerId: '121974',
+      status: status.NoStatus,
+    ),
+    ReportModel(
+      customerGroupName: 'SUNRISE',
+      customerGroupId: '0234',
+      isFavorite: false,
+      rainmakerName: 'ABHIJIT MOHANTY',
+      rainmakerId: '43416',
+      status: status.Incomplete,
+    ),
+    ReportModel(
+      customerGroupName: 'BT',
+      customerGroupId: '0042',
+      isFavorite: false,
+      rainmakerName: 'SONALI AADITYA DIDDEE',
+      rainmakerId: '4031',
+      status: status.Completed,
+    ),
+    ReportModel(
+      customerGroupName: 'SKY Services Ltd',
+      customerGroupId: '3163',
+      isFavorite: false,
+      rainmakerName: 'Marcio Fonseca',
+      rainmakerId: '355761',
+      status: status.NoStatus,
+    ),
+    ReportModel(
+      customerGroupName: 'Davis + Henderson',
+      customerGroupId: '1972',
+      isFavorite: false,
+      rainmakerName: 'Avlok Ohrie',
+      rainmakerId: '312788',
+      status: status.Pending,
+    ),
+    ReportModel(
+      customerGroupName: 'EADS',
+      customerGroupId: '2802',
+      isFavorite: false,
+      rainmakerName: 'Palvanivelrajan Subramanian',
+      rainmakerId: '210074',
+      status: status.Pending,
+    ),
+    ReportModel(
+      customerGroupName: 'Cisco',
+      customerGroupId: '0053',
+      isFavorite: false,
+      rainmakerName: 'Govardhan Raju Penumaka',
+      rainmakerId: '226367',
+      status: status.Completed,
+    ),
+    ReportModel(
+      customerGroupName: 'TELUS',
+      customerGroupId: '0249',
+      isFavorite: false,
+      rainmakerName: 'Badriraman Subramanian',
+      rainmakerId: '44707',
+      status: status.Incomplete,
+    ),
+    ReportModel(
+      customerGroupName: 'Rogers Communications',
+      customerGroupId: '3725',
+      isFavorite: false,
+      rainmakerName: 'Badriraman Subramanian',
+      rainmakerId: '44707',
+      status: status.NoStatus,
+    ),
+    ReportModel(
+      customerGroupName: 'BASF',
+      customerGroupId: '1018',
+      isFavorite: false,
+      rainmakerName: 'HANEEF BIJU',
+      rainmakerId: '230768',
+      status: status.Completed,
+    ),
+    ReportModel(
+      customerGroupName: 'Ford Motor Company',
+      customerGroupId: '1018',
+      isFavorite: false,
+      rainmakerName: 'Amit Jain',
+      rainmakerId: '230768',
+      status: status.Completed,
+    ),
+  ];
+}
